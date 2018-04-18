@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Application</string>
+    <string name ="threedimension">三维</string>
+    <string name="vectormap">在线地图</string>
+
+
+    <!-- spatialite-->
+    <string name="local_db">local_db.sqlite</string>
+    <string name="error_locate_failed">error_locate_failed</string>
+</resources>

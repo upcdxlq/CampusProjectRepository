@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/markLatitude"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="纬度"
+            android:visibility="visible" />
+        <EditText
+            android:id="@+id/markLongitude"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            android:hint="经度"/>
+        <EditText
+            android:id="@+id/markName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            android:hint="名称"/>
+        <EditText
+            android:id="@+id/markType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            android:hint="类型"/>
+        <EditText
+            android:id="@+id/markDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            android:hint="描述"/>
+        <Button
+            android:id="@+id/btnPublic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="发布标注"/>
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="添加标注"/>
+        <TextView
+            android:id="@+id/markResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="显示结果栏"/>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

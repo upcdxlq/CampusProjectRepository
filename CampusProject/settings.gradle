@@ -1,0 +1,1 @@
+include ':app', ':worldwind-library', ':spatialite-android-library', ':application'
